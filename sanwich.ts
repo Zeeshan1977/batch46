@@ -2,21 +2,19 @@
 //as the function call provides, and it should print a summary of the sandwich that is being ordered. Call the function three times, using a different number
 //of arguments each time.
 
-let sandwich_items={
+function sandWich(Items:string, Qty:number){
+    let myOrder =`i want to order ${Qty}! ${Items}  with "extra-cheese","mayonese","tomatoes" please`;
+    
+    return myOrder;
+    }
+    
+    const confirmOrder1= sandWich("grill Chicken",1 );
+    const confirmOrder2= sandWich("Zinger",2 );
+    const confirmOrder3= sandWich("grilled Cheese",4 );
 
-cheese: "extra",
-Tomatoes: "normal",
-Pickles: "no",
-Lettuce: "slightly",
-cacumber: "no",
-mayonnese: "Light",
-Ketchup: "yes",
-MyOrder:function sandwich_items(myOrder:string){
-    return(`${sandwich_items}`)}
-}
-
-
-//where I am not getting it?/i need help here
+    console.log(confirmOrder1);
+    console.log(confirmOrder2);
+    console.log(confirmOrder3);
 
 
 
